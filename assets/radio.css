@@ -18,6 +18,13 @@
     cursor: pointer;
 }
 
+.yii2-radio .simple-radio:hover,
+.yii2-radio .simple-radio:focus,
+.yii2-radio .simple-radio:active,
+.yii2-radio .simple-radio:visited {
+    text-decoration: none;
+}
+
 .yii2-radio .simple-radio:hover {
     opacity: 0.7;
 }
