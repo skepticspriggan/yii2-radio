@@ -1,13 +1,15 @@
 .yii2-radio {
-    display: inline-flex;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 0.5rem;
 }
 
 .yii2-radio-item {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     white-space: nowrap;
+    flex: 0 0 auto;
 }
 
 .yii2-radio .simple-radio {
@@ -22,7 +24,7 @@
 .yii2-radio .simple-radio:focus,
 .yii2-radio .simple-radio:active,
 .yii2-radio .simple-radio:visited {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .yii2-radio .simple-radio:hover {

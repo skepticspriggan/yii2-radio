@@ -36,7 +36,7 @@ class SimpleRadio extends Widget
     public $uncheckedIcon = 'fa fa-circle-o';
 
     /** @var string Font Awesome size class */
-    public $iconSize = 'fa-2x';
+    public $iconSize = 'fa-lg';
 
     /** @var string Default color class for the selected item */
     public $checkedColor = 'text-success';
