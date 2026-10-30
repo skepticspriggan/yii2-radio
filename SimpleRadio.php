@@ -30,10 +30,10 @@ class SimpleRadio extends Widget
     public $format = 'text';
 
     /** @var string Default icon for the selected item */
-    public $checkedIcon = 'fas fa-circle-dot';
+    public $checkedIcon = 'fa fa-check-circle';
 
     /** @var string Default icon for unselected items */
-    public $uncheckedIcon = 'far fa-circle';
+    public $uncheckedIcon = 'fa fa-circle-o';
 
     /** @var string Font Awesome size class */
     public $iconSize = 'fa-2x';
