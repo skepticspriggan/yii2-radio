@@ -1,0 +1,11 @@
+{
+    "name": "skepticspriggan/yii2-radio",
+    "description": "A simple radio group with a low waste of resources and fast response time.",
+    "type": "library",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "SkepticSpriggan\\": ""
+        }
+    }
+}

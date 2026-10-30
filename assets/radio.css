@@ -1,0 +1,40 @@
+.yii2-radio {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.yii2-radio-item {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.yii2-radio .simple-radio {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+
+.yii2-radio .simple-radio:hover {
+    opacity: 0.7;
+}
+
+.yii2-radio .simple-radio.radio-checked {
+    cursor: default;
+}
+
+.yii2-radio .simple-radio.radio-checked:hover {
+    opacity: 1;
+}
+
+.yii2-radio .simple-radio.switch-loading {
+    opacity: 0.5;
+    cursor: wait;
+}
+
+.yii2-radio .radio-label {
+    margin-left: 0.25rem;
+}
